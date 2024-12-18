@@ -13,9 +13,13 @@
         <input type="text" id="inputToDo" placeholder="Input your task....">
         <button id="addToDo">Add Todo</button>
 
-        <ul id="taskList">
+        <div class="features">
+            <button class="addToDo" data-features="All">All Todo</button>
+            <button class="addToDo" data-features="Completed">Completed</button>
+            <button class="addToDo" data-features="Pending">Pending</button>
+        </div>
 
-        </ul>
+        <ul id="taskList"></ul>
     </div>
 
     <script src="script.js"></script>
